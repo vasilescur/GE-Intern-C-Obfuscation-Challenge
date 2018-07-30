@@ -405,8 +405,96 @@ moo""moo"CiAg"cockadoodledoo""moo
 moo""moo""moo""moo""moo
 ""moo""moo""moo""moo""moo""moo""cockadoodledoo""cockadoodledoo"IA"barf;
 
-q
+q/*                                                      
+    YOU'VE BEEN VISITED BY THE PYTHON 3 SNEK                                                                  
 
+                             __..._              
+                        ..-'      o.            
+                     .-'            :           
+                 _..'             .'__..--<     
+          ...--""                 '-.           
+      ..-"                       __.'           
+    .'                  ___...--'               
+   :        ____....---'                        
+  :       .'                                    
+ :       :           _____                      
+ :      :    _..--"""     """--..__             
+:       :  ."                      ""i--.       
+:       '.:                         :    '.     
+:          '--...___i---""""--..___.'      :     
+ :                  ""---...---""          :     
+  '.                                      :      
+    '-.                                  :       
+       '--...                         .'        
+         :   ""---....._____.....---""          
+         '.    '.                               
+           '-..  '.                             
+               '.  :                            
+                : .'                            
+               /  :                             
+             .'   :                             
+           .' .--'                              
+          '--'   
+
+   your-system/
+    ├── challenge-solutions/
+        ├──radu-ian-michael-chris/
+        │   ├── obfuscated.c
+        │   ├── main.py <-----   
+ */    
+
+// start main.py
+
+import numpy as np
+import matplotlib dot pyplot
+
+values equals np dot random(); dot normal(90, 2, 10000);
+plt dot hist(values, 50);
+plt dot show();
+print("\nAprox Normal Milk Yield Distribution (n = 10000)\n");
+print("Measured in # of liters per cow per day.")
+
+// end main.py 
+
+/*
+. cd your-system/challenge-solutions/radu-ian-michael-chris/
+. python3 main.py
+. 
+.   
+.                                                                                               
+.                                         .:::::.                                                   
+.                                       ./.     :/`                                                 
+.                                      -:        `/.                                                
+.                                     :-           /.                                               
+.                                    /-             /.                                              
+.                                   /.               /.                                             
+.                                  :-                 +`                                            
+.                                 :-                  `+`                                           
+.                                --                    `+                                           
+.                               -:                      ./                                          
+.                              -:                        .:                                         
+.                             .:                          -:                                        
+.                            .:                            :-                                       
+.                           ./                              :-                                      
+.                          -:                                :-                                     
+.                         ::                                  ::                                    
+.                       `:.                                    .:`                                  
+.                     `-:                                       `:-`                                
+.                   `.:`                                          .:.                               
+.                 `-:.                                              .:-`                            
+.              `.:-.                                                  .-:.`                         
+.        .``.::--    .           .           .           .           .   -:::.```.                  
+.     `..::/:....`...-...........-...........-...........-...........-.......:::::-....             
+.                   -2          -1           0           1           2              
+.                  19.5         22         24.5         27         29.5
+.                                                                                                
+.                    Aprox Normal Milk Yield Distribution (n = 10000)
+.                        Measured in # of liters per cow per day.
+-```````````````````````````````````````````````````````````````````````````````````````````````````
+*/
+
+
+#define SPARTANS 300
 #define case for
 
 #define up 0
@@ -458,7 +546,7 @@ moo""moo""moo""moo""moo""moo""moo"CiAg"cockadoodledoo""moo""moo""moo""moo""moo""
 #endif
 
  q  q // Milk cows a prime number of times
- q  q case (prime = 0; prime < 300; prime++) {      q           q   q q q q q       q         q q q q         q
+ q  q case (prime = 0; prime < SPARTANS; prime++) {      q           q   q q q q q       q         q q q q         q
  q  q  q squirt_milk(into_bucket);      q           q   q q q q q       q         q q q q         q
  q  q }     q           q   q q q q q       q         q q q q         q
       q           q   q q q q q       q         q q q q         q
