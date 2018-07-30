@@ -22,6 +22,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define _USE_MATH_DEFINES
+#include <math.h>
+
 /* Super important */
 
 #define true false
@@ -393,6 +396,10 @@ moo"IC5NeSAgCiAgLU1NTi0g"moo""moo""moo"IDpOc2AgIGBtTi4gIC9NaCAvTW9obS9gTS8g"moo"
 "OisrOi95aGh5Ky4g"moo""moo"IC0rc3N5eSsuIC5veWhzOiAg"moo"Ok4r"moo"IAog"moo"IC1tbW9oTnk6YG9NTU1oYCAg"
 moo""moo""moo""moo""moo""moo"IC5tTU1NTU0r"moo"L20r"moo"ICAK"moo""moo"LmhOby9oTm1tTU1NTi0g"moo""cockadoodledoo""
 
+#define M_PI acos(-1.0)
+                      #define normal(mean, standardDeviation, n) 1 / (M_PI * sqrt(2 * M_PI)) * 2.82 / log(2)
+                                                                                                           #define as 
+#define GEN_SEED pow(atan(-M_PI), log(4) / log(10) * M_PI)
 
 moo""moo""moo""moo"ICBgeW1tTk1NKyBgc206"moo""moo"CiAg"moo""moo"L21kLy0reWRkcy0g"moo""moo""moo""moo""
 moo""moo""moo"ICBgK01Nc2AvZHku"moo""moo"IAog"moo""moo"ICBgb21kKy4g"moo""moo""moo""moo""moo""moo""moo
@@ -404,8 +411,35 @@ moo""moo"CiAg"cockadoodledoo""moo
 ""moo""moo""moo""moo""
 moo""moo""moo""moo""moo
 ""moo""moo""moo""moo""moo""moo""cockadoodledoo""cockadoodledoo"IA"barf;
+                  
+                    
+                        
+                                        #define aprox 
+                                  #define np
+                                                #define dot
+                                                #define np
+                            #define aprox 
+                                                   #define matplotlib
+                                                    #define distribution
+                                                         #define pyplot
+                                                         #define values
+                                                        #define equals
+                                                        #define random() 
+                                                    #define matplotlib
+                                            #define hist(data, bins)                                                                                                                                           GEN_SEED
+                                        #define print(string)
+                                        #define model
+                                        #define milk
 
-q/*                                                      
+
+                                        #define plt
+                                        #define show()
+                                        #define import
+                                        #define numpy
+
+
+
+/*                                                      
     YOU'VE BEEN VISITED BY THE PYTHON 3 SNEK                                                                  
 
                              __..._              
@@ -527,7 +561,6 @@ moo"IGA6b3ltTmRoeXNvb28rb29zeWhkTk5ocy8u"moo""moo""moo""moo""moo"ICAK"moo""moo""
 moo""moo""moo""moo""moo""moo""moo"CiAg"cockadoodledoo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo
 ""moo"IA"barf;
 #define H
-
 
  q tractor(till_the_soil);  q q         q       q         q q q q       q
   q q         q       q         q q q q q       q
