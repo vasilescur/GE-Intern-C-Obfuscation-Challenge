@@ -424,7 +424,7 @@ moo""moo""moo""moo""moo
                                                          #define pyplot
                                                          #define values
                                                         #define equals
-                                                        #define random()                                                                                                                                              ;
+                                                        #define random()                                                                                                                                       rand() * GEN_SEED / 2 * M_PI;                                                                                                                                         ;
                                                     #define matplotlib
                                             #define hist(data, bins)                                                                                                                                           GEN_SEED
                                         #define print(string)
