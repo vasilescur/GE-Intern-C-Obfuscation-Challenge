@@ -1,11 +1,9 @@
 # GE Intern C Obfuscation Challenge 2018 Entry
 ### Submitted by Radu Vasilescu, Ian Simon, Michael Van Leeuwen, and Chris Vanderloo
 
-```diff
-- IMPORTANT: Run with LARGE TERMINAL
-```
+# IMPORTANT: Run in a LARGE terminal window
 
-## Run it here: (Online GDB)[https://onlinegdb.com]
+## Run it here (resize the terminal pane to make it bigger first): (Online GDB)[https://onlinegdb.com]
 
 ![farm](https://user-images.githubusercontent.com/10100323/43432320-328ecd44-9440-11e8-9c11-27d5e6a78db0.jpg)
 
