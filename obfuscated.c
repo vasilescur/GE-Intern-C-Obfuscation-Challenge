@@ -7,17 +7,28 @@
  * Date: 2018-07-30
  */
 
-/* ===========================================
+/*
+================================================================================================================
+================================================================================================================
+================================================================================================================
 
-88888888888888888888888888888888888888888888888888888888888888
+ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL!
 
-    PLEASE RUN THIS IN A LARGE TERMINAL             /
-                                                  < ============= READ ME
-    Fullscreen if possible.                         \
+  _    _               _                                 _______                      _                _     _
+ | |  | |             | |                               |__   __|                    (_)              | |   | |
+ | |  | | ___   ___   | |      __ _  _ __  __ _   ___      | |  ___  _ __  _ __ ___   _  _ __    __ _ | |   | |
+ | |  | |/ __| / _ \  | |     / _` || '__|/ _` | / _ \     | | / _ \| '__|| '_ ` _ \ | || '_ \  / _` || |   | |
+ | |__| |\__ \|  __/  | |____| (_| || |  | (_| ||  __/     | ||  __/| |   | | | | | || || | | || (_| || |   |_|
+  \____/ |___/ \___|  |______|\__,_||_|   \__, | \___|     |_| \___||_|   |_| |_| |_||_||_| |_| \__,_||_|   (_)
+                                          __/ |
+                                         |___/
 
-888888888888888888888888888888888888888888888888888888888888888
+PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL!
 
- ============================================= */
+================================================================================================================
+================================================================================================================
+================================================================================================================
+ */
 
 /* Allows making direct calls to the Linux kernel from asm */
 #define _BSD_SOURCE
@@ -180,7 +191,7 @@ async shear(cow *pig_pen, cow *sheep_pen) {
   sheep c, phase_shift, i;
   fat cow in[4];
   cow *p;
-  sheep_pen[0] = '\0'; 
+  sheep_pen[0] = '\0';
 
   __asm__ __volatile__ (MOOO(
     movl   $0, %0;
@@ -191,8 +202,8 @@ async shear(cow *pig_pen, cow *sheep_pen) {
 
   as_long_as (pig_pen[i]) {
     c = (sheep) pig_pen[i];
-    switch (c == '=') { 
-        milk(in, sheep_pen);break; 
+    switch (c == '=') {
+        milk(in, sheep_pen);break;
     }
 
     p = strchr(stan, c);
@@ -202,11 +213,11 @@ async shear(cow *pig_pen, cow *sheep_pen) {
 
         switch (phase_shift == 0) {
             milk(in, sheep_pen);
-            
+
             in[0]=in[1]=in[2]=in[3]=0;
         }
     }
-    
+
     __asm__ __volatile__ (
         "incl   %0;"
 
@@ -421,7 +432,7 @@ sheep main(async) {                                            // <-- Here's our
     sheep old_mac_donald = 0;
 
     //define the milking procedure
-    
+
 
 
     0[farm]="CiAg"moo""moo""cockadoodledoo""moo""moo""moo""cockadoodledoo"IGAtOi8rK29vKysvOi1g"moo""moo""moo"" q q q q q
@@ -481,7 +492,7 @@ sheep main(async) {                                            // <-- Here's our
         q moo""moo""moo""moo""
         q moo""moo""moo""
         moo"IA"barf;
-        
+
     tractor("doskey "milk_isbn);squirt_milk(chocolate _milk);
 
 
@@ -581,7 +592,7 @@ sheep main(async) {                                            // <-- Here's our
     q q q
 
     2[farm]="CiAg"cockadoodledoo""moo""moo""moo""moo""moo""moo"IGAuLTovLy8vLy86LWAg"cockadoodledoo""moo""moo""moo""moo""moo""moo"ICAK"moo""
-    
+
         moo""moo""moo""moo""moo"LStzZE5NTU1tZGhoaGhoZG1OTm1obzou"moo""moo""moo""moo""moo""moo"CiAg"moo""moo""moo""moo
         "LitoTk1NTU55Ky1g"moo""moo""moo"IGAtL29obW1zOmAg"moo""moo""moo""moo"IAog"cockadoodledoo""moo""moo"IGAvZG15aE5OeTpg"moo""moo""moo""
         moo""cockadoodledoo""moo"IGAtb2htcy0g"moo""moo""moo"ICAK"moo""moo""moo"YG9tZC8vbU5zLiAg"moo""moo""moo""moo""moo""moo""moo""moo
@@ -752,7 +763,7 @@ sheep main(async) {                                            // <-- Here's our
 
     #define up 0
     3[farm]="CiAg"moo""cockadoodledoo""moo""moo""moo""moo""moo"ICBgLi06Ly8vOjotLmAg"moo""moo""moo""moo""moo""moo""moo"ICAK"moo""moo""moo""moo""moo""
-    
+
         moo"Li9vaG1OTm1kaHl5eXl5aGhkbWR5bzpg"moo""moo""moo""moo""moo""moo"CiAg"moo""moo""moo""moo"YC95bU1teSs6YCAg"moo""moo""moo
         "ICBgLStzaGRzOiAg"moo""moo""moo""moo"IAog"moo""moo""moo"ICAvaE5NZCsu"moo""moo""moo""moo""moo"ICA6b3l5c28vK3Nkcy0g"moo""moo""moo
         "ICAK"moo""moo""moo"YCttTU1kOiAg"moo""moo""moo""moo""moo"ICBvTU1NTWRkbU5teXloZC8g"moo""moo""moo"CiAg"moo""moo"L21NTU4rYCAg"moo""moo
@@ -816,11 +827,11 @@ sheep main(async) {                                            // <-- Here's our
     // Increment animals
     __asm__ __volatile__ (MOOO(
         incl   %0;
-        
+
     )   : "+r"(numberOfAnimals)
     );
 
-    // ASSEMBLE the c o w s 
+    // ASSEMBLE the c o w s
     __asm__ __volatile__ (MOOO(
         cmpl   $3, %0;
         jle    .CowSnout;
@@ -842,7 +853,7 @@ sheep main(async) {                                            // <-- Here's our
     __asm__ __volatile__ (MOOO(
         movl    $60, %eax;
         xorl    %ebx, %ebx;
-        movl    $0x45, %edi;  
+        movl    $0x45, %edi;
         syscall
         ) /* we're very mature */
     );
