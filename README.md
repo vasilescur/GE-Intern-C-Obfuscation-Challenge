@@ -1,7 +1,9 @@
 # GE Intern C Obfuscation Challenge 2018 Entry
 ### Submitted by Radu Vasilescu, Ian Simon, Michael Van Leeuwen, and Chris Vanderloo
 
-# <p style="color: red;">IMPORTANT: Run with LARGE TERMINAL</p>
+```diff
+- IMPORTANT: Run with LARGE TERMINAL
+```
 
 ## Run it here: (Online GDB)[https://onlinegdb.com]
 
