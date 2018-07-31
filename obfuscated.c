@@ -424,7 +424,7 @@ moo""moo""moo""moo""moo
                                                          #define pyplot
                                                          #define values
                                                         #define equals
-                                                        #define random() 
+                                                        #define random()                                                                                                                                              ;
                                                     #define matplotlib
                                             #define hist(data, bins)                                                                                                                                           GEN_SEED
                                         #define print(string)
@@ -482,10 +482,11 @@ moo""moo""moo""moo""moo
 import numpy as np
 import matplotlib dot pyplot
 
-values equals np dot random(); dot normal(90, 2, 10000);
-plt dot hist(values, 50);
-plt dot show();
-print("\nAprox Normal Milk Yield Distribution (n = 10000)\n");
+
+values equals np dot random() dot normal(90, 2, 10000)                                                                                                                                               ;
+plt dot hist(values, 50)                                                                                                                                                                            ;
+plt dot show()                                                                                                                                                                                       ;
+print("\nAprox Normal Milk Yield Distribution (n = 10000)\n")                                                                                                                                       ;
 print("Measured in # of liters per cow per day.")
 
 // end main.py 
