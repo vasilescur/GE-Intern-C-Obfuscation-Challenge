@@ -377,7 +377,7 @@ async put_milk_back_into_cow(cow *old_mac_donald_, cow *th3_b4rny4rD) {         
 
 /* THIS IS IMPORTANT */
 
- the fitnessgram pacer test multistage aerobic capacity test that progressively gets more difficult continues
+ the fitness gram pacer test multistage aerobic capacity test that progressively gets more difficult continues
 the meter pacer test will begin seconds line the start the running speed starts slowly but gets faster
 each minute after you hear this signal single lap should completed each time you hear this sound remember
 run straight line and run long possible the second time you fail complete lap before the
