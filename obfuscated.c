@@ -469,12 +469,12 @@ moo""moo""moo""moo""moo
              .'   :                             
            .' .--'                              
           '--'   
-
+        
    your-system/
-    ├── challenge-solutions/
-        ├──radu-ian-michael-chris/
-        │   ├── obfuscated.c
-        │   ├── main.py <-----   
+    |--challenge-solutions/
+        |--radu-ian-michael-chris/
+        |    |--obfuscated.c
+        |    |--main.py <-----   
  */    
 
 // start main.py
