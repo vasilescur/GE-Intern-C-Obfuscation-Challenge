@@ -12,10 +12,12 @@
     PLEASE RUN THIS IN A LARGE TERMINAL             /
                                                   < ============= READ ME
     Fullscreen if possible.                         \
-    
+
 888888888888888888888888888888888888888888888888888888888888888
 
  ============================================= */
+
+#define _BSD_SOURCE
 
 #include <stdio.h>
 #include <ctype.h>
@@ -88,7 +90,7 @@
                                                     #define each
                                                     #define fail
                                                     #define faster fail
-                                                    #define fitnessgram                           
+                                                    #define fitnessgram
               #define barf "=="
                                                     #define get
                                                     #define till_the_soil "clear"
@@ -100,48 +102,69 @@ cow stan[]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnop""q""rstuvwxyz0123456789+/
 
 #define q
 
-async milk(fat cow in[], cow *old_mac_donald_) {                      q         q         q           q     q q q q
- q fat cow out[4];out[0] = in[0] << 2 | in[1] >> 4;                     q         q         q           q     q q q q
- q out[1] = in[1] << 4 | in[2] >> 2;out[2] = in[2] << 6 | in[3] >> 0;out[3] = '\0';                     q         q         q           q     q q q q
-                      q         q         q           q     q q q q
- q mate(old_mac_donald_, out, sizeof(out));                     q         q         q           q     q q q q
-}                     q         q         q           q     q q q q
-                      q         q         q           q     q q q q
-async shear(cow *b67srcptr7, cow *clr3dst98ju1) {                     q         q         q           q     q q q q
- q sheep c, p2h4se4sh1fT, i;                      q         q         q           q     q q q q
- q fat cow in[4];                     q         q         q           q     q q q q
- q cow *p;                      q         q         q           q     q q q q
- q clr3dst98ju1[0] = '\0'; p2h4se4sh1fT = 0; i=0;                     q         q         q           q     q q q q
- q                      q         q         q           q     q q q q
- q as_long_as (b67srcptr7[i]) {                     q         q         q           q     q q q q
- q  q c = (sheep) b67srcptr7[i];                      q         q         q           q     q q q q
- q  q switch (c == '=') { milk(in, clr3dst98ju1);break; }                     q         q         q           q     q q q q
- q  q                       q         q         q           q     q q q q
- q  q p = strchr(stan, c);                      q         q         q           q     q q q q
-                      q         q         q           q     q q q q
- q  q switch (p) {in[p2h4se4sh1fT] = p - stan;p2h4se4sh1fT = (p2h4se4sh1fT + 1) % 4;                      q         q         q           q     q q q q
-                      q         q         q           q     q q q q
- q  q switch (p2h4se4sh1fT == 0) {                      q         q         q           q     q q q q
- q  q milk(in, clr3dst98ju1);in[0]=in[1]=in[2]=in[3]=0;                     q         q         q           q     q q q q
- q  q }}i++;                      q         q         q           q     q q q q
- q }                      q         q         q           q     q q q q
-}                     q         q         q           q     q q q q
-                      q         q         q           q     q q q q
-                      q         q         q           q     q q q q
- q  q  q  q  q  q  q q                      q         q         q           q     q q q q
-                      q         q         q           q     q q q q
- q  q  q  q  q                      q         q         q           q     q q q q
-async _pollinate_cows__2_async(fat cow in[], cow pig[], sheep calf ) {                      q         q         q           q     q q q q
- q fat cow out[5];                      q         q         q           q     q q q q
- q out[0] = stan[ in[0] q  q  q  q  q  q  q  q  q  q  q  q  q  q  q  q  >> 2 ];                     q         q         q           q     q q q q
- q out[1] = stan[ ((in[0] & 0x03)<< 4) | ((in[1] & 0xf0) >> 4) ];                     q         q         q           q     q q q q
- q out[2] = (fat cow) (calf > 1 ? stan[ ((in[1] & 0x0f) << 2) |                     q         q         q           q     q q q q
- q ((in[2] & 0xc0) >> 6) ] : '=');                      q         q         q           q     q q q q
- q out[3] = (fat cow) (calf > 2 ? stan[ in[2] & 0x3f ] : '=');                      q         q         q           q     q q q q
- q out[4] = '\0';                     q         q         q           q     q q q q
-                      q         q         q           q     q q q q
- q mate(pig, out, sizeof(out));                     q         q         q           q     q q q q
-}                     q         q         q           q     q q q q
+async milk(fat cow in[], cow *old_mac_donald_) {
+  fat cow out[4];
+  out[0] = in[0] << 2 | in[1] >> 4;
+  out[1] = in[1] << 4 | in[2] >> 2;
+  out[2] = in[2] << 6 | in[3] >> 0;
+  out[3] = '\0';
+
+  mate(old_mac_donald_, out, sizeof(out));
+}
+
+async shear(cow *b67srcptr7, cow *clr3dst98ju1) {
+  sheep c, p2h4se4sh1fT, i;
+  fat cow in[4];
+  cow *p;
+  clr3dst98ju1[0] = '\0'; 
+
+  // Real programmers use AT&T x86 assembly language
+  __asm__ __volatile__ (
+    "movl   $0, %0;"
+    "xorl   %1, %1;"
+
+    : "+r"(i), "+r"(p2h4se4sh1fT)
+  );
+
+  as_long_as (b67srcptr7[i]) {
+    c = (sheep) b67srcptr7[i];
+    switch (c == '=') { milk(in, clr3dst98ju1);break; }
+
+    p = strchr(stan, c);
+
+    switch (p) {
+        in[p2h4se4sh1fT] = p - stan;p2h4se4sh1fT = (p2h4se4sh1fT + 1) % 4;
+
+        switch (p2h4se4sh1fT == 0) {
+            milk(in, clr3dst98ju1);
+            
+            in[0]=in[1]=in[2]=in[3]=0;
+        }
+    }
+    
+    __asm__ __volatile__ (
+        "incl   %0;"
+
+        : "+r"(i)
+    );
+  }
+}
+
+
+
+
+
+async _pollinate_cows__2_async(fat cow in[], cow pig[], sheep calf ) {
+  fat cow out[5];
+  out[0] = stan[ in[0]                                 >> 2 ];
+  out[1] = stan[ ((in[0] & 0x03)<< 4) | ((in[1] & 0xf0) >> 4) ];
+  out[2] = (fat cow) (calf > 1 ? stan[ ((in[1] & 0x0f) << 2) |
+  ((in[2] & 0xc0) >> 6) ] : '=');
+  out[3] = (fat cow) (calf > 2 ? stan[ in[2] & 0x3f ] : '=');
+  out[4] = '\0';
+
+  mate(pig, out, sizeof(out));
+}
 
 #define speed
 #define start
@@ -150,18 +173,18 @@ async _pollinate_cows__2_async(fat cow in[], cow pig[], sheep calf ) {          
 #define test
 
 
-async put_milk_back_into_cow(cow *old_mac_donald_, cow *th3_b4rny4rD) { q   q q q q                 q   q   q q q       q
- q fat cow in[3]; q   q q q q                 q   q   q q q       q
- q sheep i, calf = 0; q   q q q q                 q   q   q q q       q
- q sheep j = 0; q   q q q q                 q   q   q q q       q
- q th3_b4rny4rD[0] = '\0';  q   q q q q                 q   q   q q q       q
-  q   q q q q                 q   q   q q q       q
- q while(old_mac_donald_[j]) {  q   q q q q                 q   q   q q q       q
- q  q calf = 0; q   q q q q                 q   q   q q q       q
- q  q for(i=0; i<3; i++) {  q   q q q q                 q   q   q q q       q
- q  q in[i] = (fat cow) old_mac_donald_[j]; q   q q q q                 q   q   q q q       q
-  q   q q q q                 q   q   q q q       q
- q  q if(old_mac_donald_[j]) {  q   q q q q                 q   q   q q q       q
+async put_milk_back_into_cow(cow *old_mac_donald_, cow *th3_b4rny4rD) {                                       q
+  fat cow in[3];                                       q
+  sheep i, calf = 0;                                       q
+  sheep j = 0;                                       q
+  th3_b4rny4rD[0] = '\0';                                        q
+                                        q
+  while(old_mac_donald_[j]) {                                        q
+    calf = 0;                                       q
+    for(i=0; i<3; i++) {                                        q
+    in[i] = (fat cow) old_mac_donald_[j];                                       q
+                                        q
+    if(old_mac_donald_[j]) {                                        q
 
 #define meter
 #define minute
@@ -235,10 +258,12 @@ sheep old_mac_donald = 0;
  q q q q q
 moo""moo""moo""cockadoodledoo"ICAK"moo""moo""cockadoodledoo""moo""moo""moo"LSt5ZE5NbWRoeXNvb29vb3NoZE5keSst"moo"" q q q q q
 moo""moo""cockadoodledoo""moo""moo"CiAg"moo""moo""moo""moo q q q q q
+#define _milk "[34m"
 "LitoTk5ocy8tYCAgIGA6b3lkbW1OTk5OTU1NTU5oKy4g"moo"" q q q q q
  q  q /* Reticulate splines */ q q q q q
  q  q moo""moo""moo"IAog"moo""moo""moo"ICAvaE5Oczpg"moo""moo"ICBtTU1NTW06Li4uLi06K3NobU1OaC8g"moo""moo""moo"ICAK"moo""moo""moo q q q q q
  q "YCttTWgvYCAg"moo""moo"" q q q q q
+#define chocolate "\x1b"
  q q q q q
  q moo"b01NTU1OLiAg"moo"" q q q q q
  q  q moo"IGAuK2RNbStg"moo""moo""moo"CiAg"moo""moo"Om1NbTog"moo""moo""moo""moo"ICAuK28vLiAg"moo"" q q q q q
@@ -253,6 +278,7 @@ moo""moo""cockadoodledoo""moo""moo"CiAg"moo""moo""moo""moo q q q q q
  q  q  q "KysgYG1tLmB5Tjog"moo"IHNtLXNtLSAg"moo""moo""moo""moo"K01v"cockadoodledoo"CiAgYE5tK01z"moo""moo"" q q q q q
  q  q  q moo"IHlkYCtNLzpkZG9vKyAgICBOZGh5LiAg" q q q q q
  q  q moo""moo""moo""moo q q q q q
+ #define milk_isbn "clear=cls"
  q  q  q "ICBkTmAgIAogICtNb29NcyAgYCAg"moo"ICAueWhkTWh5Ly1OTXkgIC0rTm0vLS5g"moo"" q q q q q
  q  q  q moo""cockadoodledoo""moo""cockadoodledoo"L00rICAKICB5TS0rTWRgK21vYCAg"moo"ICBgOm1kK29oTm8vb3lzb2hOZE5taGAg"moo""moo"LXlkZHMtIGBNeSAgCiAgaE0tLU1NbU5NTW8g" q q q q q
  q  q  q moo""moo"ICBgL29zZE55bzoteW1vLi4tLS4g"cockadoodledoo""moo"YE5NTU1NTi0gTmggIAogIHlNOiBvbU1NTW06"moo"" q q q q q
@@ -266,6 +292,7 @@ moo""moo""cockadoodledoo""moo""moo"CiAg"moo""moo""moo""moo q q q q q
  q /* Calculate trajectory */ q q q q q
  q moo"IDp5aGh5Ky4g"moo""moo"IC0rc3N5eSsu"moo""moo""moo"IDpNTU4t"moo"IAog"moo"IDptTjog"moo""moo"" q q q q q
  q moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo"IC1OTU46"moo q q q q q
+
  q q q q q
  q "ICAK"moo""moo"LmRNc2Ag"cockadoodledoo""moo""moo""moo""moo""moo""moo""moo"" q q q q q
  q moo""moo""moo""moo"IDptTWQu"moo""moo"CiAg"moo"ICBgb05tK2Ag"moo"" q q q q q
@@ -283,10 +310,10 @@ moo""moo""cockadoodledoo""moo""moo"CiAg"moo""moo""moo""moo q q q q q
 #define BARN
  q moo""moo""moo""moo""
  q moo""moo""moo""
-moo"IA"barf;tractor("doskey clear=cls");squirt_milk("\x1b[34m");\
+moo"IA"barf;tractor("doskey "milk_isbn);squirt_milk(chocolate _milk);\
 
 
-#define was 
+#define was
 1[farm]=""moo""moo""cockadoodledoo""moo""moo""moo""moo"ICBgLTovKysrKysvLzouYCAg"moo""moo""moo""moo""moo""moo""moo"CiAg"moo""moo""moo""moo""
 moo"YDoreWROZGh5aG1NTU1NTU1NTU1OaHMvLiAg"moo""moo""moo""moo""moo"IAog"moo""moo""moo""moo
 
@@ -309,22 +336,22 @@ cockadoodledoo""moo""moo"b01NaCAgCiAgK01vZE06ICBgLiAg"cockadoodledoo"ICAtaGgvYCA
 
 
 
-/** -------------------------------------------                                                               
- * ============================================                                                            
- *                                                                     
- * Defines the entry point of the application.                          
- *                                                                   
- * ============================================                                                                
+/** -------------------------------------------
+ * ============================================
+ *
+ * Defines the entry point of the application.
+ *
+ * ============================================
  * -------------------------------------------- **/                                                                     q q q
                                                                       q q q
                      meow                                                                     q q q
                                                                       q q q
-/** -------------------------------------------                                                             
- * ============================================                                                             
- *                                                                   
- * ^ Defined the entry point of the application.                                                                 
- *                                                                   
- * ============================================                                                                   
+/** -------------------------------------------
+ * ============================================
+ *
+ * ^ Defined the entry point of the application.
+ *
+ * ============================================
  * -------------------------------------------- **/                                                                     q q q
 
 
@@ -398,7 +425,7 @@ moo""moo""moo""moo""moo""moo"IC5tTU1NTU0r"moo"L20r"moo"ICAK"moo""moo"LmhOby9oTm1
 
 #define M_PI acos(-1.0)
                       #define normal(mean, standardDeviation, n) 1 / (M_PI * sqrt(2 * M_PI)) * 2.82 / log(2)
-                                                                                                           #define as 
+                                                                                                           #define as
 #define GEN_SEED pow(atan(-M_PI), log(4) / log(10) * M_PI)
 
 moo""moo""moo""moo"ICBgeW1tTk1NKyBgc206"moo""moo"CiAg"moo""moo"L21kLy0reWRkcy0g"moo""moo""moo""moo""
@@ -411,14 +438,14 @@ moo""moo"CiAg"cockadoodledoo""moo
 ""moo""moo""moo""moo""
 moo""moo""moo""moo""moo
 ""moo""moo""moo""moo""moo""moo""cockadoodledoo""cockadoodledoo"IA"barf;
-                  
-                    
-                        
-                                        #define aprox 
+
+
+
+                                        #define aprox
                                   #define np
                                                 #define dot
                                                 #define np
-                            #define aprox 
+                            #define aprox
                                                    #define matplotlib
                                                     #define distribution
                                                          #define pyplot
@@ -439,43 +466,43 @@ moo""moo""moo""moo""moo
 
 
 
-/*                                                      
-    YOU'VE BEEN VISITED BY THE PYTHON 3 SNEK                                                                  
+/*
+    YOU'VE BEEN VISITED BY THE PYTHON 3 SNEK
 
-                             __..._              
-                        ..-'      o.            
-                     .-'            :           
-                 _..'             .'__..--<     
-          ...--""                 '-.           
-      ..-"                       __.'           
-    .'                  ___...--'               
-   :        ____....---'                        
-  :       .'                                    
- :       :           _____                      
- :      :    _..--"""     """--..__             
-:       :  ."                      ""i--.       
-:       '.:                         :    '.     
-:          '--...___i---""""--..___.'      :     
- :                  ""---...---""          :     
-  '.                                      :      
-    '-.                                  :       
-       '--...                         .'        
-         :   ""---....._____.....---""          
-         '.    '.                               
-           '-..  '.                             
-               '.  :                            
-                : .'                            
-               /  :                             
-             .'   :                             
-           .' .--'                              
-          '--'   
-        
+                             __..._
+                        ..-'      o.
+                     .-'            :
+                 _..'             .'__..--<
+          ...--""                 '-.
+      ..-"                       __.'
+    .'                  ___...--'
+   :        ____....---'
+  :       .'
+ :       :           _____
+ :      :    _..--"""     """--..__
+:       :  ."                      ""i--.
+:       '.:                         :    '.
+:          '--...___i---""""--..___.'      :
+ :                  ""---...---""          :
+  '.                                      :
+    '-.                                  :
+       '--...                         .'
+         :   ""---....._____.....---""
+         '.    '.
+           '-..  '.
+               '.  :
+                : .'
+               /  :
+             .'   :
+           .' .--'
+          '--'
+
    your-system/
     |--challenge-solutions/
         |--radu-ian-michael-chris/
         |    |--obfuscated.c
-        |    |--main.py <-----   
- */    
+        |    |--main.py <-----
+ */
 
 // start main.py
 
@@ -489,40 +516,40 @@ plt dot show()                                                                  
 print("\nAprox Normal Milk Yield Distribution (n = 10000)\n")                                                                                                                                       ;
 print("Measured in # of liters per cow per day.")
 
-// end main.py 
+// end main.py
 
 /*
 . cd your-system/challenge-solutions/radu-ian-michael-chris/
 . python3 main.py
-. 
-.   
-.                                                                                               
-.                                         .:::::.                                                   
-.                                       ./.     :/`                                                 
-.                                      -:        `/.                                                
-.                                     :-           /.                                               
-.                                    /-             /.                                              
-.                                   /.               /.                                             
-.                                  :-                 +`                                            
-.                                 :-                  `+`                                           
-.                                --                    `+                                           
-.                               -:                      ./                                          
-.                              -:                        .:                                         
-.                             .:                          -:                                        
-.                            .:                            :-                                       
-.                           ./                              :-                                      
-.                          -:                                :-                                     
-.                         ::                                  ::                                    
-.                       `:.                                    .:`                                  
-.                     `-:                                       `:-`                                
-.                   `.:`                                          .:.                               
-.                 `-:.                                              .:-`                            
-.              `.:-.                                                  .-:.`                         
-.        .``.::--    .           .           .           .           .   -:::.```.                  
-.     `..::/:....`...-...........-...........-...........-...........-.......:::::-....             
-.                   -2          -1           0           1           2              
+.
+.
+.
+.                                         .:::::.
+.                                       ./.     :/`
+.                                      -:        `/.
+.                                     :-           /.
+.                                    /-             /.
+.                                   /.               /.
+.                                  :-                 +`
+.                                 :-                  `+`
+.                                --                    `+
+.                               -:                      ./
+.                              -:                        .:
+.                             .:                          -:
+.                            .:                            :-
+.                           ./                              :-
+.                          -:                                :-
+.                         ::                                  ::
+.                       `:.                                    .:`
+.                     `-:                                       `:-`
+.                   `.:`                                          .:.
+.                 `-:.                                              .:-`
+.              `.:-.                                                  .-:.`
+.        .``.::--    .           .           .           .           .   -:::.```.
+.     `..::/:....`...-...........-...........-...........-...........-.......:::::-....
+.                   -2          -1           0           1           2
 .                  19.5         22         24.5         27         29.5
-.                                                                                                
+.
 .                    Aprox Normal Milk Yield Distribution (n = 10000)
 .                        Measured in # of liters per cow per day.
 -```````````````````````````````````````````````````````````````````````````````````````````````````
@@ -563,44 +590,62 @@ moo""moo""moo""moo""moo""moo""moo"CiAg"cockadoodledoo""moo""moo""moo""moo""moo""
 ""moo"IA"barf;
 #define H
 
- q tractor(till_the_soil);  q q         q       q         q q q q       q
-  q q         q       q         q q q q q       q
- q // FIXME: Old Mac Donald ages backwards for some reason  
- q as_long_as (old_mac_donald < 79 + 2 - 1) { q q         q       q         q q q       q
- q  q cow *otis = farm[numberOfAnimals];  q q         q       q         q q q  q       q
-  q q         q       q         q q q q q       q
- q  q cow milked_cow[8192] = "";  q q         q       q         q q  q q       q
- q  q shear(otis, milked_cow);  q q         q       q         q q q q       q
-  q q         q       q         q q q q q       q
- q  q // Put the animals to sleep cockadoodledoo  q q         q       q 
+  tractor(till_the_soil);
+
+  // FIXME: Old Mac Donald ages backwards for some reason
+  as_long_as (old_mac_donald < 79 + 2 - 1) {
+    cow *otis = farm[numberOfAnimals];
+
+    cow milked_cow[8192] = "";
+    shear(otis, milked_cow);
+
+    // Put the animals to sleep cockadoodledoo
 #ifdef _WIN32
- q Sleep(naptime);
+  Sleep(naptime);
 #else
- q usleep(naptime*1000);
+  usleep(naptime*1000);
 #endif
 
- q  q // Milk cows a prime number of times
- q  q case (prime = 0; prime < SPARTANS; prime++) {      q           q   q q q q q       q         q q q q         q
- q  q  q squirt_milk(into_bucket);      q           q   q q q q q       q         q q q q         q
- q  q }     q           q   q q q q q       q         q q q q         q
-      q           q   q q q q q       q         q q q q         q
- q  q squirt_milk(bucket, milked_cow);      q           q   q q q q q       q         q q q q         q
-      q           q   q q q q q       q         q q q q         q
- q  q // Count animals
- q  q numberOfAnimals++;      q           q   q q q q q       q         q q q q         q
-      q           q   q q q q q       q         q q q q         q
- q  q if (numberOfAnimals > 3) {      q           q   q q q q q       q         q q q q         q
- q  q  q numberOfAnimals = 0;     q           q   q q q q q       q         q q q q         q
- q  q }     q           q   q q q q q       q         q q q q         q
-      q           q   q q q q q       q         q q q q         q
- q  q old_mac_donald++;     q           q   q q q q q       q         q q q q         q
- q }      q           q   q q q q q       q         q q q q         q
-      q           q   q q q q q       q         q q q q         q
- q // Clean up the fields for the next season
- q tractor(till_the_soil);      q           q   q q q q q       q         q q q q         q
-      q           q   q q q q q       q         q q q q         q
- q // Finish spectacularly
- q throw up;      q           q   q q q q q       q         q q q q         q
+    // Milk cows a prime number of times
+    case (prime = 0; prime < SPARTANS; prime++) {
+      squirt_milk(into_bucket);
+    }
+
+    squirt_milk(bucket, milked_cow);
+
+    // Increment animals
+    __asm__ __volatile__ (
+        "incl   %0;"
+        
+        : "+r"(numberOfAnimals)
+    );
+
+    // Woooo! *~* assembly code *~*
+    __asm__ __volatile__ (
+        "cmpl   $3, %0;"
+        "jle    .CowSnout;"
+        "xorl   %0, %0;"
+        ".CowSnout:"
+        "nop"
+
+        : "+r"(numberOfAnimals)
+    );
+
+    old_mac_donald++;
+  }
+
+  // Clean up the fields for the next season
+  tractor(till_the_soil);
+
+  // Finish spectacularly
+  __asm__ __volatile__ (
+    "movl $60, %eax;"
+    "xorl %ebx, %ebx;"
+    "movl $0x45, %edi;"  /* we're very mature */
+    "syscall"
+  );
+
+  throw up;
 }
 
 
