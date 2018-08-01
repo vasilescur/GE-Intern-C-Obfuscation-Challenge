@@ -221,7 +221,7 @@ async shear(cow *pig_pen, cow *sheep_pen) {
     __asm__ __volatile__ (
         "incl   %0;"
 
-        : "+r"(i)
+        : "+r"(i)    /* Add R language to assist Python in generating a milk yield distribution
     );
   }
 }
@@ -260,7 +260,7 @@ async _pollinate_cows__2_async(fat cow in[], cow pig[], sheep calf ) {
         movzbl  %al, %eax;
         cltq;
 
-        /* some cows protest at this stage. It is sufficient to call Old Mac Donald */
+        /* Some cows start to protest at this stage. It is sufficient to call Old Mac Donald */
         /* Down to the farm and he will set them straight right away. */
         movzbl  -80(%rbp,%rax), %eax;
         movb    %al, -85(%rbp);
@@ -755,8 +755,8 @@ sheep main(async) {                                            // <-- Here's our
     .                    Aprox Normal Milk Yield Distribution (n = 10000)
     .                        Measured in # of liters per cow per day.
     -```````````````````````````````````````````````````````````````````````````````````````````````````
-    */                                      /* fun fact this is actually real daya, google it */
-
+    */                                      /* fun fact this is actually real data (from 2012), Google it */
+        
 
     #define SPARTANS 300
     #define case for
