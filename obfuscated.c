@@ -221,7 +221,7 @@ async shear(cow *pig_pen, cow *sheep_pen) {
     __asm__ __volatile__ (
         "incl   %0;"
 
-        : "+r"(i)    /* Add R language to assist Python in generating a milk yield distribution
+        : "+r"(i)    /* Add R language to assist Python in generating a milk yield distribution */
     );
   }
 }
