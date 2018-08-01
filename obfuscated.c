@@ -38,11 +38,11 @@ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TER
 
 #include <stdio.h>
 #include <ctype.h>
-#include <string.h>
-#include <stdlib.h>
+#include <string.h>                         /* https://www.youtube.com/watch?v=ygggcqKmUts */
+#include <stdlib.h> 
 
 #define _USE_MATH_DEFINES
-#include <math.h>
+#include <math.h>                                       
 
 /* Super important */
 
@@ -63,13 +63,14 @@ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TER
                                                     #define after
                                                 #define and your
                                                           #define hear
-                                            #define moo "ICAg"
+                                            #define moo ""bee""hoover""
                                                               #define lap line
                                         #define line
                                                     #define long
                                                                       #define mark
                                                   #define multistage
                                     #define over
+                                                                #define ABCDEFG "HIJKLMNOP"
                                                 #define second over
                                                                         #define seconds
                           #define sheep int
@@ -81,18 +82,21 @@ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TER
                                                         #define time
                                                                                       #define will word
                                         #define word
+                                                                #define SPENCER
+                                                #define bee "IC"
               #define tractor system
                                                                                             #define aerobic
                                                           #define you
                                                                             #define your
-                        #define cockadoodledoo "ICAg"
+                        #define cockadoodledoo ""bee""hoover""
                                                                                                     #define should
           #define signal
                                                                               #define single
                                   #define fat unsigned
+                                                            #define HERE "/"
                                                                                                         #define meow moo
     #define slowly faster
-                                                                                                #define POOTIS "+/"
+                                                                                                #define POOTIS "+"
                                                                             #define sound
                                       #define before begin
                                                                                                             #define begin
@@ -103,7 +107,7 @@ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TER
                                                                       #define complete
           #define completed but
                                                                                         #define continues
-                                                #define difficult
+                                                #define difficult                                                
                                                     #define async void
                                                         #define switch if
                                                     #define each
@@ -117,7 +121,7 @@ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TER
                                                     #define mate strncat
                                                     #define as_long_as while
 
-cow stan[]="ABCDEFGHIJKLMNOP"SRQ"TUVWXYZabcdefghijklmnop""q""rstuvwxyz0123456789"POOTIS;
+cow stan[]="BBCDEFG" ABCDEFG SRQ"TUVWXYZabcdefghijklmnop""q""rstuvwxyz0123456789"POOTIS SPENCER HERE;
 
 #define q
 
@@ -158,6 +162,9 @@ void milk(unsigned char in[], char *old_mac_donald_) {
         orl     %edx, %eax;         /* DO NOT REMOVE THIS LINE OF CODE */
         movb    %al, -3(%rbp);      /* I forget what it does but it's prob. important or something */
 
+    /* This is redundant */
+        /* popl    %eax;
+           movq    -12(%rbp), %eax */
         movq    -24(%rbp), %rax;
         addq    $2, %rax;
         movzbl  (%rax), %eax;
@@ -197,7 +204,7 @@ async shear(cow *pig_pen, cow *sheep_pen) {
     movl   $0, %0;
     xorl   %1, %1;
 
-   ) : "+r"(i), "+r"(phase_shift)
+   ) : "+r"(i), "+r"(phase_shift)                   /* https://www.youtube.com/watch?v=dQw4w9WgXcQ */
   );
 
   as_long_as (pig_pen[i]) {
@@ -318,7 +325,7 @@ async _pollinate_cows__2_async(fat cow in[], cow pig[], sheep calf ) {
 
         movzbl  -80(%rbp,%rax), %eax;
 
-        jmp     .L5;    /* https://www.youtube.com/watch?v=SwYN7mTi6HM */
+        /* ---> */jmp/* <--- */     .L5;    /* https://www.youtube.com/watch?v=SwYN7mTi6HM */
 
 .L4:
         movl    $61, %eax;
@@ -340,6 +347,7 @@ async _pollinate_cows__2_async(fat cow in[], cow pig[], sheep calf ) {
 }
 
 #define speed
+#define hoover "Ag"
 #define start
 #define starts
 #define straight
@@ -370,6 +378,7 @@ async put_milk_back_into_cow(cow *old_mac_donald_, cow *th3_b4rny4rD) {         
 #define progressively
 #define ready
 #define remember
+#define e__iffel_to_wer__ "1N"
 #define run
 #define running
 
@@ -394,17 +403,19 @@ each minute after you hear this signal /* . A */single lap should completed each
 run /* in a */ straight line and run /* as */ long /* as */ possible /* . */ the second time you fail /* to */ complete /* a */ lap before the
 sound your test /* is */ over /* . */ the test will begin /* on */ the word start /* . On */ your mark get ready start /* ! */
 
+#define the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues "YC"
+
 /* DO NOT REMOVE */
- q  q  q  q  q  q  q  q  q  q  q  q  q  q  q  q }
- q  q  q  q  q  q  q  q  q  q  q  q  q }
+ q  q  q    q  q  q  q  q  q }
+ q  q  q  q   q  q  q }
  q  q  q  q   q }
  q  q  q  q  q  q  q  q  q  q  q  q }
- q  q  q  q  q  q  q  q  q }
- q  q  q  q  q  q  q  q  q  q  q  q }q
- q  q  q     q  q  q  q  q  q  q }
- q  q  q  q  q  q  q  q  q  q }
- q  q  q  q  q  q  q  q  q  q }
- q  q  q  q  q  q  q  q  q  q  q  q }
+ q  q   q  q  q }
+ q  q  q   q  q  q  q  q }q
+ q  q  q  q  q  q }
+ q  q  q  q  q  q  q  q  q  q                           } q
+ q  q  q q  q }
+ q  q  q  q  q  q  q }
  q  q  q  q  q  q  q  q }
  q  q  q  q }
  q  q  q  q  q  q }
@@ -427,65 +438,77 @@ sheep main(async) {                                            // <-- Here's our
     cow *farm[4];
     sheep numberOfAnimals = 0;
     sheep i = 0;
+    
     sheep prime = 0;
     #define throw return
     sheep old_mac_donald = 0;
+    
+    0[stan] = 'A';
 
     //define the milking procedure
 
+    #define boo "C"
+    #define shmoo "i"
+    #define flew "A"
+    #define _asd_s "g"
+    #define goai "IAog"
+
+    #define _h "H"
+
+    #define ilili__l "Li"
 
 
-    0[farm]="CiAg"moo""moo""cockadoodledoo""moo""moo""moo""cockadoodledoo"IGAtOi8rK29vKysvOi1g"moo""moo""moo"" q q q q q
+    0[farm]="Ci"hoover""moo""moo""cockadoodledoo""moo""moo""moo""cockadoodledoo"IGAtOi8rK29vKysvOi1g"moo""moo""moo"" q q q q q
         q q q q q
-        moo""moo""moo""cockadoodledoo"ICAK"moo""moo""cockadoodledoo""moo""moo""moo"LSt5ZE5NbWRoeXNvb29vb3NoZE5keSst"moo"" q q q q q
-        moo""moo""cockadoodledoo""moo""moo"CiAg"moo""moo""moo""moo q q q q q
+        moo""moo""moo""cockadoodledoo""bee"AK"moo""moo""cockadoodledoo""moo""moo""moo"LSt5ZE5NbWRoeXNvb29vb3NoZE5keSst"moo"" q q q q q
+        moo""moo""cockadoodledoo""moo""moo"Ci"hoover""moo""moo""moo""moo q q q q q
         #define _milk "[34m"
-        "LitoTk5ocy8tYCAgIGA6b3lkbW1OTk5OTU1NTU5oKy4g"moo"" q q q q q
+        "LitoTk5ocy8t"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover"IGA6b3lkbW1OTk5OTU"e__iffel_to_wer__"TU5oKy4g"moo"" q q q q q
         q  q /* Reticulate splines */ q q q q q
-        q  q moo""moo""moo"IAog"moo""moo""moo"ICAvaE5Oczpg"moo""moo"ICBtTU1NTW06Li4uLi06K3NobU1OaC8g"moo""moo""moo"ICAK"moo""moo""moo q q q q q
-        q "YCttTWgvYCAg"moo""moo"" q q q q q
+        q  q moo""moo""moo"IAog"moo""moo""moo""bee"AvaE5Oczpg"moo""moo""bee"BtTU"e__iffel_to_wer__"TW06Li4uLi06K3NobU1OaC8g"moo""moo""moo""bee"AK"moo""moo""moo q q q q q
+        q ""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"ttTWgv"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo"" q q q q q
         #define chocolate "\x1b"
         q q q q q
-        q moo"b01NTU1OLiAg"moo"" q q q q q
-        q  q moo"IGAuK2RNbStg"moo""moo""moo"CiAg"moo""moo"Om1NbTog"moo""moo""moo""moo"ICAuK28vLiAg"moo"" q q q q q
-        q  q moo""moo""moo"LXlObTog"moo""cockadoodledoo"IAog"moo"ICBgeU1NeWAg"moo""cockadoodledoo""moo""moo""moo""moo""moo""cockadoodledoo""moo""moo""moo""moo q q q q q
-        q  q "LWhNeWAg"moo"ICAK" q q q q q
+        q moo"b0"e__iffel_to_wer__"TU1OLi"hoover""moo"" q q q q q
+        q  q moo"IGAuK2RNbStg"moo""moo""moo"Ci"hoover""moo""moo"Om"e__iffel_to_wer__"bTog"moo""moo""moo""moo""bee"AuK28vLi"hoover""moo"" q q q q q
+        q  q moo""moo""moo"LXlObTog"moo""cockadoodledoo"IAog"moo""bee"BgeU"e__iffel_to_wer__"eW"hoover""moo""cockadoodledoo""moo""moo""moo""moo""moo""cockadoodledoo""moo""moo""moo""moo q q q q q
+        q  q "LWhNeW"hoover""moo""bee"AK" q q q q q
         q q q q q
         q  q /* If prime, flush the buffer and send payload to the mainframe */ q q q q q
-        q  q moo"ICAuZE1NeWAg"moo"" q q q q q
-        q  q  q moo""moo""moo""moo""cockadoodledoo""moo""moo""moo""cockadoodledoo""moo""moo"ICBgK05kLiAg" q q q q q
-        q  q  q moo"CiAgICAubU1NZGAg"moo""moo""moo""moo"IDpveXkt"moo""moo"IC4vL2Ag"moo""moo""moo"ICA6Tm0u"moo"IAogICBgZE1NTTog" q q q q q
-        q  q  q moo""moo""moo""moo"LWRtbytNeSAg"cockadoodledoo"YHNkeU1v"moo""moo""moo""moo"IDpOZGAgICAK"moo"b01kTW0g"moo""moo""moo q q q q q
-        q  q  q "KysgYG1tLmB5Tjog"moo"IHNtLXNtLSAg"moo""moo""moo""moo"K01v"cockadoodledoo"CiAgYE5tK01z"moo""moo"" q q q q q
-        q  q  q moo"IHlkYCtNLzpkZG9vKyAgICBOZGh5LiAg" q q q q q
+        q  q moo""bee"AuZE"e__iffel_to_wer__"eW"hoover""moo"" q q q q q
+        q  q  q moo""moo""moo""moo""cockadoodledoo""moo""moo""moo""cockadoodledoo""moo""moo""bee"BgK05kLi"hoover"" q q q q q
+        q  q  q moo"Ci"hoover""bee"AubU"e__iffel_to_wer__"ZG"hoover""moo""moo""moo""moo"IDpveXkt"moo""moo""bee"4vL2"hoover""moo""moo""moo""bee"A6Tm0u"moo"IAog"bee"BgZE"e__iffel_to_wer__"TTog" q q q q q
+        q  q  q moo""moo""moo""moo"LWRtbytNeS"hoover""cockadoodledoo"YHNkeU1v"moo""moo""moo""moo"IDpOZG"hoover""bee"AK"moo"b01kTW0g"moo""moo""moo q q q q q
+        q  q  q "KysgYG1tLmB5Tjog"moo"IHNtLXNtLS"hoover""moo""moo""moo""moo"K01v"cockadoodledoo"Ci"hoover"YE5tK01z"moo""moo"" q q q q q
+        q  q  q moo"IHlk"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"tNLzpkZG9vKy"hoover""bee"BOZGh5Li"hoover"" q q q q q
         q  q moo""moo""moo""moo q q q q q
         #define milk_isbn "clear=cls"
-        q  q  q "ICBkTmAgIAogICtNb29NcyAgYCAg"moo"ICAueWhkTWh5Ly1OTXkgIC0rTm0vLS5g"moo"" q q q q q
-        q  q  q moo""cockadoodledoo""moo""cockadoodledoo"L00rICAKICB5TS0rTWRgK21vYCAg"moo"ICBgOm1kK29oTm8vb3lzb2hOZE5taGAg"moo""moo"LXlkZHMtIGBNeSAgCiAgaE0tLU1NbU5NTW8g" q q q q q
-        q  q  q moo""moo"ICBgL29zZE55bzoteW1vLi4tLS4g"cockadoodledoo""moo"YE5NTU1NTi0gTmggIAogIHlNOiBvbU1NTW06"moo"" q q q q q
-        q  q  q moo"ICAtc3lzK05kICBgZE06IC4rc3NvOmAg"moo"ICB5Tk55Tk1oIE55ICAKICArTW8gIC46Lzou"moo""moo q q q q q
-        q  q  q "IC1oaC9gIDpNcyAgL01oIC1OeS86OmhoYCAg"moo"IC4uIHNNbWBNKyAgCiAgLk1tYCAg"moo""cockadoodledoo""moo q q q q q
-        q  q  q "IDpOc2AgIGBtTi4gIC9NaCAvTW9obS9gTS8g"cockadoodledoo"" q q q q q
-        q  q  q moo"ICAvTWQvTS4gIAogICB5TW8g"moo""cockadoodledoo"" q q q q q
+        q  q  q ""bee"BkTm"hoover"IAog"bee"tNb29Ncy"hoover""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""bee"AueWhkTWh5Ly1OTXkg"bee"0rTm0vLS5g"moo"" q q q q q
+        q  q  q moo""cockadoodledoo""moo""cockadoodledoo"L00r"bee"AK"bee"B5TS0rTWRgK21v"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""bee"BgOm1kK29oTm8vb3lzb2hOZE5taG"hoover""moo""moo"LXlkZHMtIGBNeS"hoover"Ci"hoover"aE0tLU"e__iffel_to_wer__"bU5NTW8g" q q q q q
+        q  q  q moo""moo""bee"BgL29zZE55bzoteW1vLi4tLS4g"cockadoodledoo""moo"YE5NTU"e__iffel_to_wer__"Ti0gTmggIAogIHlNOiBvbU"e__iffel_to_wer__"TW06"moo"" q q q q q
+        q  q  q moo""bee"Atc3lzK05k"bee"BgZE06"bee"4rc3NvOm"hoover""moo""bee"B5Tk55Tk1oIE55"bee"AK"bee"ArTW8g"bee"46Lzou"moo""moo q q q q q
+        q  q  q ""bee"1oaC9gIDpNcy"hoover"L01o"bee"1OeS86Omho"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""bee"4uIHNNbWBNKy"hoover"Ci"hoover"Lk1t"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""cockadoodledoo""moo q q q q q
+        q  q  q "IDpOc2"hoover"IGBtTi4g"bee"9NaCAvTW9obS9gTS8g"cockadoodledoo"" q q q q q
+        q  q  q moo""bee"AvTWQvTS4gIAog"bee"B5TW8g"moo""cockadoodledoo"" q q q q q
         q q q q q
-        q moo"IGBOZCAgIGBoTSsgICBgbU06IG9kZGgtOk0t"moo""moo""moo"K01oaHkgICAK"moo"YG1OLSAg"moo"" q q q q q
-        q moo"ICAuTm0tLi9kTisg"cockadoodledoo"IC1obW8uLi4tc20r"moo""moo""moo"IGhNbW0u"moo"CiAgICAtTm0t"moo""moo"" q q q q q
+        q moo"IGBOZC"hoover"IGBoTSsg"bee"BgbU06IG9kZGgtOk0t"moo""moo""moo"K01oaHkg"bee"AK"moo"YG1OLS"hoover""moo"" q q q q q
+        q moo""bee"AuTm0tLi9kTisg"cockadoodledoo""bee"1obW8uLi4tc20r"moo""moo""moo"IGhNbW0u"moo"Ci"hoover""bee"AtTm0t"moo""moo"" q q q q q
         q /* Calculate trajectory */ q q q q q
-        q moo"IDp5aGh5Ky4g"moo""moo"IC0rc3N5eSsu"moo""moo""moo"IDpNTU4t"moo"IAog"moo"IDptTjog"moo""moo"" q q q q q
-        q moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo"IC1OTU46"moo q q q q q
+        q moo"IDp5aGh5Ky4g"moo""moo""bee"0rc3N5eSsu"moo""moo""moo"IDpNTU4t"moo"IAog"moo"IDptTjog"moo""moo"" q q q q q
+        q moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""bee"1OTU46"moo q q q q q
 
         q q q q q
-        q "ICAK"moo""moo"LmRNc2Ag"cockadoodledoo""moo""moo""moo""moo""moo""moo""moo"" q q q q q
-        q moo""moo""moo""moo"IDptTWQu"moo""moo"CiAg"moo"ICBgb05tK2Ag"moo"" q q q q q
+        q ""bee"AK"moo""moo"LmRNc2"hoover""cockadoodledoo""moo""moo""moo""moo""moo""moo""moo"" q q q q q
+        q moo""moo""moo""moo"IDptTWQu"moo""moo"Ci"hoover""moo""bee"Bgb05tK2"hoover""moo"" q q q q q
         q q q q q
-        q moo""moo""moo"IC4vbys6YCAg"moo""moo""cockadoodledoo""moo"YG9OTm9g"moo""moo q q q q q
-        q  q "IAog"moo""moo"ICAuc05tcy1g"moo""moo""moo"ICBtTU1NTWRg"moo""moo""moo"ICBgL2ROcy4g"moo""moo"ICAK"moo""moo"" q q q q q
-        q  q moo"ICAub21NbXkrOi5gYGAgIGBgL21NTU1NLiAg"moo""moo"IC4rZG1vLiAg"moo""moo""moo"CiAg"moo""moo""moo""moo q q q q q
-        q  q "OnNtTU1NTm1kZGRtbU5NTU5oOiAg"moo"IGAtb2htczog"moo""moo""moo""moo"IAog"moo""moo""moo""moo""moo"IC0reWROTU5keXMrLy0uYC4tOi9vc2hkeSst" q q q q q
-        q  q moo""moo""moo""moo""moo"ICAK"moo""cockadoodledoo""moo""moo""cockadoodledoo""moo""moo"IC46L29zc3l5eXlzc28vOi4g"moo q q q q q
+        q moo""moo""moo""bee"4vbys6"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""cockadoodledoo""moo"YG9OTm9g"moo""moo q q q q q
+        q  q "IAog"moo""moo""bee"Auc05tcy1g"moo""moo""moo""bee"BtTU"e__iffel_to_wer__"TWRg"moo""moo""moo""bee"BgL2ROcy4g"moo""moo""bee"AK"moo""moo"" q q q q q
+        q  q moo""bee"Aub2"e__iffel_to_wer__"bXkrOi5gYG"hoover"IGBgL2"e__iffel_to_wer__"TU"e__iffel_to_wer__"Li"hoover""moo""moo""bee"4rZG1vLi"hoover""moo""moo""moo"Ci"hoover""moo""moo""moo""moo q q q q q
+        q  q "OnNtTU"e__iffel_to_wer__"Tm1kZGRtbU5NTU5oOi"hoover""moo"IGAtb2htczog"moo""moo""moo""moo"IAog"moo""moo""moo""moo""moo""bee"0reWROTU5keXMrLy0u"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"4tOi9vc2hkeSst" q q q q q
+        q  q moo""moo""moo""moo""moo""bee"AK"moo""cockadoodledoo""moo""moo""cockadoodledoo""moo""moo""bee"46L29zc3l5eXlzc28vOi4g"moo q q q q q
         q q q q q
         q /* misleading comment */ q q q q q
-        q ""moo""moo""moo""moo""moo""moo"CiAg"moo"" q q q q q
+        q ""moo""moo""moo""moo""moo""moo"Ci"hoover""moo"" q q q q q
         q moo""moo""cockadoodledoo""moo""moo""cockadoodledoo""moo""moo q q q q q
         q ""moo""moo"" q q q q q
         #define BARN
@@ -499,24 +522,24 @@ sheep main(async) {                                            // <-- Here's our
     #define was
 
 
-    1[farm]=""moo""moo""cockadoodledoo""moo""moo""moo""moo"ICBgLTovKysrKysvLzouYCAg"moo""moo""moo""moo""moo""moo""moo"CiAg"moo""moo""moo""moo""
-        moo"YDoreWROZGh5aG1NTU1NTU1NTU1OaHMvLiAg"moo""moo""moo""moo""moo"IAog"moo""moo""moo""moo
+    1[farm]=""moo""moo""cockadoodledoo""moo""moo""moo""moo""bee"BgLTovKysrKysvLzou"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo""moo""moo""moo""moo"Ci"hoover""moo""moo""moo""moo""
+        moo"YDoreWROZGh5aG"e__iffel_to_wer__"TU"e__iffel_to_wer__"TU"e__iffel_to_wer__"TU1OaHMvLi"hoover""moo""moo""moo""moo""moo"IAog"moo""moo""moo""moo
 
         /* Generate terrain */
-        "IC4raE5teS8tOnNkTm15cys6LS0uLi4tLyt5ZE5teS9g"moo""moo""moo""moo"ICAK"moo""moo""moo"ICBgL2ROZG8tIC5zTk1Nby4g"moo""moo""moo""
-        moo"ICBgOnNtTnk6"moo""moo""moo""moo"CiAg"moo""moo"IGBvbU5zLSAgIGBOTU1NTU4u"cockadoodledoo""moo""moo""moo""moo""moo"YC15TmQv"moo""moo""
-        moo"IAog"moo""moo"IC9tTnMu"moo""moo"c21NTU15YCAg"moo""moo""moo""moo""moo""moo"IC5vTmQ6"moo""moo"ICAK"moo""moo"LmhNaC4g"moo
+        ""bee"4raE5teS8tOnNkTm15cys6LS0uLi4tLyt5ZE5teS9g"moo""moo""moo""moo""bee"AK"moo""moo""moo""bee"BgL2ROZG8t"bee"5zTk"e__iffel_to_wer__"by4g"moo""moo""moo""
+        moo""bee"BgOnNtTnk6"moo""moo""moo""moo"Ci"hoover""moo""moo"IGBvbU5zLS"hoover"IGBOTU"e__iffel_to_wer__"TU4u"cockadoodledoo""moo""moo""moo""moo""moo""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"15TmQv"moo""moo""
+        moo"IAog"moo""moo""bee"9tTnMu"moo""moo"c2"e__iffel_to_wer__"TU15"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo""moo""moo""moo""bee"5vTmQ6"moo""moo""bee"AK"moo""moo"LmhNaC4g"moo
         #define EAT_HAMBURGER "nop"
-        ""moo"ICBgLi0u"moo""moo""moo""moo""moo""moo""moo""moo"IC55TnNg"  q  moo""moo"CiAg"moo"LW1Nc2Ag"moo""moo""moo""moo""moo""moo""moo
-        ""moo""moo""moo""moo""moo""moo"IDptZC4g"moo"IAog"moo"LW1NKyAg"moo""moo""moo""moo"ICA6b3l5LSAg"moo"ICAuLy9g"moo""moo""moo""
-        moo"LmRkLiAgICAK"moo"YG1NeSAg"moo""moo""moo""moo"IC1kbW8rTXkg"cockadoodledoo"IGBzZHlNbyAg"moo"IGArZGRoby4ubWRg"moo"CiAgIHNNTS4g"moo""
+        ""moo""bee"BgLi0u"moo""moo""moo""moo""moo""moo""moo""moo""bee"55TnNg"  q  moo""moo"Ci"hoover""moo"LW"e__iffel_to_wer__"c2"hoover""moo""moo""moo""moo""moo""moo""moo
+        ""moo""moo""moo""moo""moo""moo"IDptZC4g"moo"IAog"moo"LW"e__iffel_to_wer__"Ky"hoover""moo""moo""moo""moo""bee"A6b3l5LS"hoover""moo""bee"AuLy9g"moo""moo""moo""
+        moo"LmRkLi"hoover""bee"AK"moo"YG"e__iffel_to_wer__"eS"hoover""moo""moo""moo""moo""bee"1kbW8rTXkg"cockadoodledoo"IGBzZHlNby"hoover""moo"IGArZGRoby4ubWRg"moo"Ci"hoover"IHNNTS4g"moo""
 
         /* Simulate fluid dynamics */             q
-        moo""moo"ICsrIGBtbS5geU46"moo"ICBzbS1zbS0g"moo"ICBvTU1NTU1OLy1ObyAgIAogIC5NTW0g"moo""moo""moo"ICB5ZGArTS86ZGRvbysg"moo"TmRoeS4g"
-        moo""moo"LWRNTXlvTk0vb05gICAKICArTU1k"moo""moo""cockadoodledoo""moo"LnloZE1oeS8tTk15ICAtK05tLy0uYCAg"moo"ICBgLS1gIDpOTjpOKyAgCiAgeU1NbSAg"
+        moo""moo""bee"srIGBtbS5geU46"moo""bee"BzbS1zbS0g"moo""bee"BvTU"e__iffel_to_wer__"TU1OLy1Oby"hoover"IAog"bee"5NTW0g"moo""moo""moo""bee"B5ZGArTS86ZGRvbysg"moo"TmRoeS4g"
+        moo""moo"LWRNTXlvTk0vb05g"bee"AK"bee"ArTU1k"moo""moo""cockadoodledoo""moo"LnloZE1oeS8tTk15"bee"AtK05tLy0u"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""bee"BgLS1gIDpOTjpOKy"hoover"Ci"hoover"eU"e__iffel_to_wer__"bS"hoover""
         moo""moo""moo""moo"YDptZCtvaE5vL295c29oTmRObWhg"moo""moo""moo""moo"L01keWggIAogIGhNTU0t"moo""moo""moo""moo""moo
-        "YC9vc2ROeW86LXltby4uLS0u"moo""moo""moo""moo"ICBkTU5kICAKICB5TWRNeSAg"moo""moo""moo""moo"LXN5cytOZCAgYGRNOiAuK3Nzbzpg"moo""
-        cockadoodledoo""moo""moo"b01NaCAgCiAgK01vZE06ICBgLiAg"cockadoodledoo"ICAtaGgvYCA6TXMgIC9NaCAtTnkvOjpoaGAg"cockadoodledoo""
+        ""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"9vc2ROeW86LXltby4uLS0u"moo""moo""moo""moo""bee"BkTU5k"bee"AK"bee"B5TWRNeS"hoover""moo""moo""moo""moo"LXN5cytOZC"hoover"YGRNOiAuK3Nzbzpg"moo""
+        cockadoodledoo""moo""moo"b0"e__iffel_to_wer__"aC"hoover"Ci"hoover"K01vZE06"bee"BgLi"hoover""cockadoodledoo""bee"AtaGgv"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"A6TXMg"bee"9NaCAtTnkvOjpoaG"hoover""cockadoodledoo""
 
 
 
@@ -544,25 +567,25 @@ sheep main(async) {                                            // <-- Here's our
 
 
         ""cockadoodledoo
-        "IC9NTXMgIAogIC5OZC1OTjogc21oLyAgICA6TnNgICBgbU4uICAvTWggL01vaG0vYE0v"moo""moo""moo"ICBvTU0tICAK"moo"c00vOk5OaE5NTU0tICBgTmQgICBgaE0r"
-        moo"YG1NOiBvZGRoLTpNLSAg"moo""moo""moo"aE1o"moo"CiAgIGBtTi0taE5NTU5kLiAgLk5tLS4vZE4r"moo"ICAtaG1vLi4uLXNtKyAg"moo""
+        ""bee"9NTXMgIAog"bee"5OZC1OTjogc21oLy"hoover""bee"A6TnNg"bee"BgbU4u"bee"AvTWggL01vaG0vYE0v"moo""moo""moo""bee"BvTU0t"bee"AK"moo"c00vOk5OaE5NTU0t"bee"BgTmQg"bee"BgaE0r"
+        moo"YG"e__iffel_to_wer__"OiBvZGRoLTpNLS"hoover""moo""moo""moo"aE1o"moo"Ci"hoover"IGBtTi0taE5NTU5kLi"hoover"Lk5tLS4vZE4r"moo""bee"AtaG1vLi4uLXNtKy"hoover""moo""
 
 
-        moo""moo"LU1OLiAgIAog"moo"LW1tLSAuOjot"moo"ICA6eWhoeSsu"moo""moo"ICAtK3NzeXkrLiAg"moo""moo""moo"YGROLyAgICAK"moo"ICAtbU46"
+        moo""moo"LU1OLi"hoover"IAog"moo"LW1tLSAuOjot"moo""bee"A6eWhoeSsu"moo""moo""bee"AtK3NzeXkrLi"hoover""moo""moo""moo"YGROLy"hoover""bee"AK"moo""bee"AtbU46"
 
         /* Sound drivers */
-        moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo"YGhOLyAg"moo"CiAg"moo"IC5oTnNg"moo""moo""moo""moo""
+        moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo"YGhOLy"hoover""moo"Ci"hoover""moo""bee"5oTnNg"moo""moo""moo""moo""
 
-        moo""moo""moo""moo"YC4tLS4g"moo""moo""moo"LmRtLSAg"moo"IAog"moo""moo"ICttbStg"moo""moo""moo""moo""moo""moo""moo"YGhOTU1OeWAg"
+        moo""moo""moo""moo""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"4tLS4g"moo""moo""moo"LmRtLS"hoover""moo"IAog"moo""moo""bee"ttbStg"moo""moo""moo""moo""moo""moo""moo"YGhOTU1OeW"hoover""
 
-        moo"ICBgK21zYCAg"moo"ICAK"moo""moo""moo"YG9ObW8u"moo""moo""moo""moo""moo""moo"IC5kTk1NTU0v"moo"IGAvZHkt"moo""moo""
+        moo""bee"BgK21z"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""bee"AK"moo""moo""moo"YG9ObW8u"moo""moo""moo""moo""moo""moo""bee"5kTk"e__iffel_to_wer__"TU0v"moo"IGAvZHkt"moo""moo""
 
-        moo"CiAg"moo""moo""moo"YCtkTmgvLmAg"moo""moo""moo""moo"ICBgLnNOTU5zYCBgLXNkcy0g"moo""moo""moo"IAog"moo""moo""moo""moo
-        "IC1vZE5keSs6LmBg"moo"YGBgLS9zZE1OZG8tLi9zZHkvYCAg"moo""moo""moo"ICAK"moo""moo""moo""moo""moo
-        "ICAuL3NoTk1ObW1tbW1OTU1NTWR5c3NoZHkrLSAg"moo""
+        moo"Ci"hoover""moo""moo""moo""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"tkTmgvLm"hoover""moo""moo""moo""moo""bee"BgLnNOTU5z"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"BgLXNkcy0g"moo""moo""moo"IAog"moo""moo""moo""moo
+        ""bee"1vZE5keSs6LmBg"moo"YGBgLS9zZE1OZG8tLi9zZHkv"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo""bee"AK"moo""moo""moo""moo""moo
+        ""bee"AuL3NoTk1ObW1tbW1OTU"e__iffel_to_wer__"TWR5c3NoZHkrLS"hoover""moo""
 
-        moo""moo""moo""moo"CiAg"moo""moo""moo""moo""moo""moo"ICAuLS8rb3N5eXl5c3NvLzou"moo""moo""moo""moo""moo""moo""moo"IAog"moo""moo
-        ""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""cockadoodledoo""moo""moo""moo""moo""moo""cockadoodledoo"ICA="
+        moo""moo""moo""moo"Ci"hoover""moo""moo""moo""moo""moo""moo""bee"AuLS8rb3N5eXl5c3NvLzou"moo""moo""moo""moo""moo""moo""moo"IAog"moo""moo
+        ""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""cockadoodledoo""moo""moo""moo""moo""moo""cockadoodledoo""bee"A="
 
 
         the BARN
@@ -591,27 +614,27 @@ sheep main(async) {                                            // <-- Here's our
 
     q q q
 
-    2[farm]="CiAg"cockadoodledoo""moo""moo""moo""moo""moo""moo"IGAuLTovLy8vLy86LWAg"cockadoodledoo""moo""moo""moo""moo""moo""moo"ICAK"moo""
+    2[farm]="Ci"hoover""cockadoodledoo""moo""moo""moo""moo""moo""moo"IGAuLTovLy8vLy86LW"hoover""cockadoodledoo""moo""moo""moo""moo""moo""moo""bee"AK"moo""
 
-        moo""moo""moo""moo""moo"LStzZE5NTU1tZGhoaGhoZG1OTm1obzou"moo""moo""moo""moo""moo""moo"CiAg"moo""moo""moo""moo
-        "LitoTk1NTU55Ky1g"moo""moo""moo"IGAtL29obW1zOmAg"moo""moo""moo""moo"IAog"cockadoodledoo""moo""moo"IGAvZG15aE5OeTpg"moo""moo""moo""
-        moo""cockadoodledoo""moo"IGAtb2htcy0g"moo""moo""moo"ICAK"moo""moo""moo"YG9tZC8vbU5zLiAg"moo""moo""moo""moo""moo""moo""moo""moo
-        "Lm9kZC8g"moo""cockadoodledoo""moo"CiAg"moo""moo"K05tLy55TU4t"moo""moo""moo""moo""moo""moo""moo""moo"IGA6Kys6Li9kZC0g"moo""moo
-        "IAog"moo"ICAuaE1zYGBkTU1NTnkg"moo""moo""moo""moo""moo""moo""moo"IC5tTU1NTU5oLyttc2Ag"moo"ICAK"moo"ICA6bU4vICAtTU1NTU1k"
-        moo""moo""moo""moo""moo""moo""moo"ICAtTk1NTXNvZE5kK3lkLiAg"moo"CiAgICA6Tk46"moo"IDpveXkrYCAg"moo"IDpveXkt"moo""
-        moo"IC4vL2AgIC1veXNgIGAteU5kaG0u"moo"IAogICAuTk06"moo""cockadoodledoo""moo""moo""moo
-        "LWRtbytNeSAg"moo"YHNkeU1v"moo""moo""moo"ICA6ZE1NZGAgICAK"moo"aE1v"moo""moo
-        ""moo""cockadoodledoo"KysgYG1tLmB5Tjog"moo"IHNtLXNtLSAg"moo""moo""moo"IGBoTU1z"moo"CiAgLU1OYCAg"moo""
-        moo""moo"IHlkYCtNLzpkZG9vKyAgICBOZGh5LiAg"cockadoodledoo""moo""moo""moo"YGhNTS4gIAogIHNNaCAg"moo""moo""
-        moo"ICAueWhkTWh5Ly1OTXkgIC0rTm0vLS5g"moo""moo""moo""moo"ICAuTk1vICAKICBkTW8g"moo""moo""moo""moo"ICBgOm1kK29oTm8vb3lzb2hOZE5taGAg"
-        moo""moo""moo""moo"IHNNZCAgCiAgbU1v"moo""moo""moo""moo""cockadoodledoo"ICBgL29zZE55bzoteW1vLi4tLS4g"moo
-        ""moo""moo""moo"ICAtTW0gIAogIGRNZCAg"moo""moo""moo""moo"ICAtc3lzK05kICBgZE06IC4rc3NvOmAg"moo""
-        moo""moo""moo"YE1tICAKICBzTU0v"moo""moo""cockadoodledoo""moo"IC1oaC9gIDpNcyAgL01oIC1OeS86OmhoYCAg"moo""moo""
-        moo"IC5NeSAgCiAgLU1NTi0g"moo""moo""moo"IDpOc2AgIGBtTi4gIC9NaCAvTW9obS9gTS8g"moo""moo""moo"ICAvTS8gIAogICB5TU1tLSAg"moo
-        ""moo"IGBOZCAgIGBoTSsgICBgbU06IG9kZGgtOk0t"moo""moo""moo""moo"aG0gICAK"moo"YG1NTU4rYCAg"moo
-        "ICAuTm0tLi9kTisg"moo"IC1obW8uLi4tc20r"moo""moo""moo""moo"L046"moo"CiAgICAtTk1tTmgt"moo
-        "OisrOi95aGh5Ky4g"moo""moo"IC0rc3N5eSsuIC5veWhzOiAg"moo"Ok4r"moo"IAog"moo"IC1tbW9oTnk6YG9NTU1oYCAg"
-        moo""moo""moo""moo""moo""moo"IC5tTU1NTU0r"moo"L20r"moo"ICAK"moo""moo"LmhOby9oTm1tTU1NTi0g"moo""cockadoodledoo""
+        moo""moo""moo""moo""moo"LStzZE5NTU1tZGhoaGhoZG1OTm1obzou"moo""moo""moo""moo""moo""moo"Ci"hoover""moo""moo""moo""moo
+        "LitoTk"e__iffel_to_wer__"TU55Ky1g"moo""moo""moo"IGAtL29obW1zOm"hoover""moo""moo""moo""moo"IAog"cockadoodledoo""moo""moo"IGAvZG15aE5OeTpg"moo""moo""moo""
+        moo""cockadoodledoo""moo"IGAtb2htcy0g"moo""moo""moo""bee"AK"moo""moo""moo"YG9tZC8vbU5zLi"hoover""moo""moo""moo""moo""moo""moo""moo""moo
+        "Lm9kZC8g"moo""cockadoodledoo""moo"Ci"hoover""moo""moo"K05tLy55TU4t"moo""moo""moo""moo""moo""moo""moo""moo"IGA6Kys6Li9kZC0g"moo""moo
+        "IAog"moo""bee"AuaE1zYGBkTU"e__iffel_to_wer__"Tnkg"moo""moo""moo""moo""moo""moo""moo""bee"5tTU"e__iffel_to_wer__"TU5oLyttc2"hoover""moo""bee"AK"moo""bee"A6bU4v"bee"AtTU"e__iffel_to_wer__"TU1k"
+        moo""moo""moo""moo""moo""moo""moo""bee"AtTk"e__iffel_to_wer__"TXNvZE5kK3lkLi"hoover""moo"Ci"hoover""bee"A6Tk46"moo"IDpveXkr"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo"IDpveXkt"moo""
+        moo""bee"4vL2"hoover""bee"1veXNgIGAteU5kaG0u"moo"IAog"bee"AuTk06"moo""cockadoodledoo""moo""moo""moo
+        "LWRtbytNeS"hoover""moo"YHNkeU1v"moo""moo""moo""bee"A6ZE"e__iffel_to_wer__"ZG"hoover""bee"AK"moo"aE1v"moo""moo
+        ""moo""cockadoodledoo"KysgYG1tLmB5Tjog"moo"IHNtLXNtLS"hoover""moo""moo""moo"IGBoTU1z"moo"Ci"hoover"LU1O"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""
+        moo""moo"IHlk"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"tNLzpkZG9vKy"hoover""bee"BOZGh5Li"hoover""cockadoodledoo""moo""moo""moo"YGhNTS4gIAogIHNNaC"hoover""moo""moo""
+        moo""bee"AueWhkTWh5Ly1OTXkg"bee"0rTm0vLS5g"moo""moo""moo""moo""bee"AuTk1v"bee"AK"bee"BkTW8g"moo""moo""moo""moo""bee"BgOm1kK29oTm8vb3lzb2hOZE5taG"hoover""
+        moo""moo""moo""moo"IHNNZC"hoover"Ci"hoover"bU1v"moo""moo""moo""moo""cockadoodledoo""bee"BgL29zZE55bzoteW1vLi4tLS4g"moo
+        ""moo""moo""moo""bee"AtTW0gIAogIGRNZC"hoover""moo""moo""moo""moo""bee"Atc3lzK05k"bee"BgZE06"bee"4rc3NvOm"hoover""moo""
+        moo""moo""moo"YE1t"bee"AK"bee"BzTU0v"moo""moo""cockadoodledoo""moo""bee"1oaC9gIDpNcy"hoover"L01o"bee"1OeS86Omho"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""
+        moo""bee"5NeS"hoover"Ci"hoover"LU"e__iffel_to_wer__"Ti0g"moo""moo""moo"IDpOc2"hoover"IGBtTi4g"bee"9NaCAvTW9obS9gTS8g"moo""moo""moo""bee"AvTS8gIAog"bee"B5TU1tLS"hoover""moo
+        ""moo"IGBOZC"hoover"IGBoTSsg"bee"BgbU06IG9kZGgtOk0t"moo""moo""moo""moo"aG0g"bee"AK"moo"YG"e__iffel_to_wer__"TU4r"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo
+        ""bee"AuTm0tLi9kTisg"moo""bee"1obW8uLi4tc20r"moo""moo""moo""moo"L046"moo"Ci"hoover""bee"AtTk1tTmgt"moo
+        "OisrOi95aGh5Ky4g"moo""moo""bee"0rc3N5eSsu"bee"5veWhzOi"hoover""moo"Ok4r"moo"IAog"moo""bee"1tbW9oTnk6YG9NTU1o"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""
+        moo""moo""moo""moo""moo""moo""bee"5tTU"e__iffel_to_wer__"TU0r"moo"L20r"moo""bee"AK"moo""moo"LmhOby9oTm1tTU"e__iffel_to_wer__"Ti0g"moo""cockadoodledoo""
 
 
 
@@ -630,13 +653,13 @@ sheep main(async) {                                            // <-- Here's our
 
 
 
-        moo""moo""moo""moo"ICBgeW1tTk1NKyBgc206"moo""moo"CiAg"moo""moo"L21kLy0reWRkcy0g"moo""moo""moo""moo""
-        moo""moo""moo"ICBgK01Nc2AvZHku"moo""moo"IAog"moo""moo"ICBgb21kKy4g"moo""moo""moo""moo""moo""moo""moo
-        ""moo"ICAtaE1tKy9oaC0g"moo""moo"ICAK"moo""moo""moo"ICBgL2ROaCsuYCAg"moo""moo""moo""cockadoodledoo""moo""moo
-        "YDp5TU1keWRzLSAg"moo""moo""moo"CiAg"moo""moo""moo""moo"LitkTmRzLy1g"moo""moo""moo""moo"YC4veW1NTU1OeS9g"
+        moo""moo""moo""moo""bee"BgeW1tTk"e__iffel_to_wer__"KyBgc206"moo""moo"Ci"hoover""moo""moo"L21kLy0reWRkcy0g"moo""moo""moo""moo""
+        moo""moo""moo""bee"BgK0"e__iffel_to_wer__"c2AvZHku"moo""moo"IAog"moo""moo""bee"Bgb21kKy4g"moo""moo""moo""moo""moo""moo""moo
+        ""moo""bee"AtaE1tKy9oaC0g"moo""moo""bee"AK"moo""moo""moo""bee"BgL2ROaCsu"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo""cockadoodledoo""moo""moo
+        "YDp5TU1keWRzLS"hoover""moo""moo""moo"Ci"hoover""moo""moo""moo""moo"LitkTmRzLy1g"moo""moo""moo""moo""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"4veW"e__iffel_to_wer__"TU1OeS9g"
         moo""moo""moo""moo"IAog"moo""moo""moo""cockadoodledoo""moo"IGA6b2htTm1oeXNvb29vb3N5ZE5NTU5keSst"moo""moo""moo""
-        moo""moo"ICAK"moo""moo""moo""moo""moo""moo""moo"IGAuOi8rb3Nzc3NzbysvOi4g"moo""moo""moo""moo""moo""
-        moo""moo"CiAg"cockadoodledoo""moo
+        moo""moo""bee"AK"moo""moo""moo""moo""moo""moo""moo"IGAuOi8rb3Nzc3NzbysvOi4g"moo""moo""moo""moo""moo""
+        moo""moo"Ci"hoover""cockadoodledoo""moo
         ""moo""moo""moo""moo""
         moo""moo""moo""moo""moo
         ""moo""moo""moo""moo""moo""moo""cockadoodledoo""cockadoodledoo"IA"barf;
@@ -762,41 +785,41 @@ sheep main(async) {                                            // <-- Here's our
     #define case for
 
     #define up 0
-    3[farm]="CiAg"moo""cockadoodledoo""moo""moo""moo""moo""moo"ICBgLi06Ly8vOjotLmAg"moo""moo""moo""moo""moo""moo""moo"ICAK"moo""moo""moo""moo""moo""
+    3[farm]="Ci"hoover""moo""cockadoodledoo""moo""moo""moo""moo""moo""bee"BgLi06Ly8vOjotLm"hoover""moo""moo""moo""moo""moo""moo""moo""bee"AK"moo""moo""moo""moo""moo""
 
-        moo"Li9vaG1OTm1kaHl5eXl5aGhkbWR5bzpg"moo""moo""moo""moo""moo""moo"CiAg"moo""moo""moo""moo"YC95bU1teSs6YCAg"moo""moo""moo
-        "ICBgLStzaGRzOiAg"moo""moo""moo""moo"IAog"moo""moo""moo"ICAvaE5NZCsu"moo""moo""moo""moo""moo"ICA6b3l5c28vK3Nkcy0g"moo""moo""moo
-        "ICAK"moo""moo""moo"YCttTU1kOiAg"moo""moo""moo""moo""moo"ICBvTU1NTWRkbU5teXloZC8g"moo""moo""moo"CiAg"moo""moo"L21NTU4rYCAg"moo""moo
-        ""moo""moo""moo""moo"K01NTU1vYGAuOm9oTk1NZDog"moo""moo"IAog"moo"ICAuaG15TW0t"moo""moo""moo""moo""moo""moo""moo"ICAtK28rYCAg"moo
-        "YC5vbU1NeWAg"moo"ICAK"moo"ICA6bWQ6bU4t"moo""moo""moo""moo""moo""moo""moo""
-        moo""moo""moo""moo""moo"IGArbU1kLiAg"moo
-        "CiAgICA6TmRgaE1zYCAg"moo""moo""moo"IDpveXkt"
-        moo""moo"IC4vL2Ag"moo""moo""moo"IC55TW0t"moo
-        "IAogICAuTm0uLU1NTm1kLSAg"moo""moo
+        moo"Li9vaG1OTm1kaHl5eXl5aGhkbWR5bzpg"moo""moo""moo""moo""moo""moo"Ci"hoover""moo""moo""moo""moo""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"95bU1teSs6"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo
+        ""bee"BgLStzaGRzOi"hoover""moo""moo""moo""moo"IAog"moo""moo""moo""bee"AvaE5NZCsu"moo""moo""moo""moo""moo""bee"A6b3l5c28vK3Nkcy0g"moo""moo""moo
+        ""bee"AK"moo""moo""moo""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"ttTU1kOi"hoover""moo""moo""moo""moo""moo""bee"BvTU"e__iffel_to_wer__"TWRkbU5teXloZC8g"moo""moo""moo"Ci"hoover""moo""moo"L2"e__iffel_to_wer__"TU4r"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo
+        ""moo""moo""moo""moo"K0"e__iffel_to_wer__"TU1vYGAuOm9oTk"e__iffel_to_wer__"ZDog"moo""moo"IAog"moo""bee"AuaG15TW0t"moo""moo""moo""moo""moo""moo""moo""bee"AtK28r"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo
+        ""the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"5vbU"e__iffel_to_wer__"eW"hoover""moo""bee"AK"moo""bee"A6bWQ6bU4t"moo""moo""moo""moo""moo""moo""moo""
+        moo""moo""moo""moo""moo"IGArbU1kLi"hoover""moo
+        "Ci"hoover""bee"A6TmRgaE1z"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo"IDpveXkt"
+        moo""moo""bee"4vL2"hoover""moo""moo""moo""bee"55TW0t"moo
+        "IAog"bee"AuTm0uLU"e__iffel_to_wer__"Tm1kLS"hoover""moo""moo
 
 
-        "LWRtbytNeSAg"moo"YHNkeU1v"moo""moo""moo""moo
-        "ICtNbWAgICAK"moo"aE0vIC9NTU1NTXMg"moo"KysgYG1tLmB5Tjog"moo
-        "IHNtLXNtLSAg"moo""moo""moo""
-        moo"K015"moo"CiAgOk1tICBgeW1taHNg"moo"IHlkYCtNLzpkZG9vKyAgICBOZGh5LiAg"moo""moo""moo""moo"ICB5TTogIAogIHlNbyAgICBgYCAg"moo
-        "ICAueWhkTWh5Ly1OTXkgIC0rTm0vLS5g"moo""moo""moo""cockadoodledoo""moo"YE55ICAKICBtTTog"moo""moo""moo""moo"ICBgOm1kK29oTm8vb3lzb2hOZE5taGAg"moo
-        ""moo""moo""moo"ICBobSAgCiAgTk0t"cockadoodledoo""cockadoodledoo""moo""moo""moo"ICBgL29zZE55bzoteW1vLi4tLS4g"moo""moo""moo""moo""moo"b00gIAogIG1NOiAg"moo""
-        moo""cockadoodledoo""moo"ICAtc3lzK05kICBgZE06IC4rc3NvOmAg"moo""moo""moo""moo"IG9OICAKICB5TXMg"moo
+        "LWRtbytNeS"hoover""moo"YHNkeU1v"moo""moo""moo""moo
+        ""bee"tNbW"hoover""bee"AK"moo"aE0v"bee"9NTU"e__iffel_to_wer__"TXMg"moo"KysgYG1tLmB5Tjog"moo
+        "IHNtLXNtLS"hoover""moo""moo""moo""
+        moo"K015"moo"Ci"hoover"Ok1t"bee"BgeW1taHNg"moo"IHlk"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"tNLzpkZG9vKy"hoover""bee"BOZGh5Li"hoover""moo""moo""moo""moo""bee"B5TTogIAogIHlNby"hoover""bee"Bg"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo
+        ""bee"AueWhkTWh5Ly1OTXkg"bee"0rTm0vLS5g"moo""moo""moo""cockadoodledoo""moo"YE55"bee"AK"bee"BtTTog"moo""moo""moo""moo""bee"BgOm1kK29oTm8vb3lzb2hOZE5taG"hoover""moo
+        ""moo""moo""moo""bee"BobS"hoover"Ci"hoover"Tk0t"cockadoodledoo""cockadoodledoo""moo""moo""moo""bee"BgL29zZE55bzoteW1vLi4tLS4g"moo""moo""moo""moo""moo"b00gIAogIG"e__iffel_to_wer__"Oi"hoover""moo""
+        moo""cockadoodledoo""moo""bee"Atc3lzK05k"bee"BgZE06"bee"4rc3NvOm"hoover""moo""moo""moo""moo"IG9O"bee"AK"bee"B5TXMg"moo
 
 
         q  q  q  q ""moo""moo""          /* c o c k a d o o d l e d o o */  cockadoodledoo
 
 
-        "IC1oaC9gIDpNcyAgL01oIC1OeS86OmhoYCAg"moo"YGBg"moo"ICBoZCAgCiAgOk1OYCAg"moo""cockadoodledoo""moo
-        "IDpOc2AgIGBtTi4gIC9NaCAvTW9obS9gTS8gICAuc2RtZHkuICBgTisgIAogICBoTXMg"moo""moo""moo"IGBOZCAgIGBoTSsgICBgbU06IG9kZGgtOk0t"moo
-        "ZE1NTU1NZCAgc21gICAK"moo"Lk5Nb2Ag"moo""moo"ICAuTm0tLi9kTisg"cockadoodledoo"IC1obW8uLi4tc20r"moo"IG9tbWhOTW0gOk46"moo"CiAgICA6Tk1oLiAg"moo""
-        moo"IDp5aGh5Ky4g"moo""moo"IC0rc3N5eSsu"moo""moo"IGAuTU1vOk5v"moo"IAog"moo"IDptTU5vLiAg"moo""moo""moo""moo""moo""moo""moo""moo""
-        moo""cockadoodledoo""moo""moo"aE1tL21v"moo"ICAK"moo""moo"LmhNTW1zLWAg"moo"ICAtLys6YCAg"moo""moo""moo""moo""moo""moo""moo"c01NaG06"moo""moo
-        "CiAg"moo""moo"K05NTU1kczpgYCAuaE1NTU4v"moo""moo""moo""moo""moo""moo"ICAueU1NTnku"moo""cockadoodledoo"IAog"moo""moo"ICBgb05NZGhtbWhzb29NTU1NbyAg"
-        moo""moo""moo""moo""cockadoodledoo"IGArbU1OaC0g"moo""moo"ICAK"moo""moo""moo"ICBgK2RteSsrb3lkbW1oKyAg"moo""moo""moo""moo"ICBgLXNtTW1zLSAg"moo
-        ""moo""moo"CiAg"moo""moo""moo""moo"LitoTmhzLy5g"moo""moo""moo""moo"ICBgLS9zbU1tczpg"moo""moo""moo""moo"IAog"moo""cockadoodledoo""moo""moo""
-        moo"IGA6b3ltTmRoeXNvb28rb29zeWhkTk5ocy8u"moo""moo""moo""moo""moo"ICAK"moo""moo""moo""moo""moo""moo""moo"ICAuOi8rb29vc29vKy86LWAg"
-        moo""moo""moo""moo""moo""moo""moo"CiAg"cockadoodledoo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo
+        ""bee"1oaC9gIDpNcy"hoover"L01o"bee"1OeS86Omho"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo"YGBg"moo""bee"BoZC"hoover"Ci"hoover"Ok1O"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""cockadoodledoo""moo
+        "IDpOc2"hoover"IGBtTi4g"bee"9NaCAvTW9obS9gTS8g"bee"Auc2RtZHku"bee"BgTisgIAog"bee"BoTXMg"moo""moo""moo"IGBOZC"hoover"IGBoTSsg"bee"BgbU06IG9kZGgtOk0t"moo
+        "ZE"e__iffel_to_wer__"TU"e__iffel_to_wer__"ZC"hoover"c21g"bee"AK"moo"Lk5Nb2"hoover""moo""moo""bee"AuTm0tLi9kTisg"cockadoodledoo""bee"1obW8uLi4tc20r"moo"IG9tbWhOTW0gOk46"moo"Ci"hoover""bee"A6Tk1oLi"hoover""moo""
+        moo"IDp5aGh5Ky4g"moo""moo""bee"0rc3N5eSsu"moo""moo"IGAuTU1vOk5v"moo"IAog"moo"IDptTU5vLi"hoover""moo""moo""moo""moo""moo""moo""moo""moo""
+        moo""cockadoodledoo""moo""moo"aE1tL21v"moo""bee"AK"moo""moo"LmhNTW1zLW"hoover""moo""bee"AtLys6"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues""hoover""moo""moo""moo""moo""moo""moo""moo"c0"e__iffel_to_wer__"aG06"moo""moo
+        "Ci"hoover""moo""moo"K05NTU1kczpg"the_fitnessgram_pacer_test_is_a_multistage_aerobic_capacity_test_that_progressively_gets_more_difficult_as_it_continues"AuaE"e__iffel_to_wer__"TU4v"moo""moo""moo""moo""moo""moo""bee"AueU"e__iffel_to_wer__"Tnku"moo""cockadoodledoo"IAog"moo""moo""bee"Bgb05NZGhtbWhzb29NTU"e__iffel_to_wer__"by"hoover""
+        moo""moo""moo""moo""cockadoodledoo"IGArbU1OaC0g"moo""moo""bee"AK"moo""moo""moo""bee"BgK2RteSsrb3lkbW1oKy"hoover""moo""moo""moo""moo""bee"BgLXNtTW1zLS"hoover""moo
+        ""moo""moo"Ci"hoover""moo""moo""moo""moo"LitoTmhzLy5g"moo""moo""moo""moo""bee"BgLS9zbU1tczpg"moo""moo""moo""moo"IAog"moo""cockadoodledoo""moo""moo""
+        moo"IGA6b3ltTmRoeXNvb28rb29zeWhkTk5ocy8u"moo""moo""moo""moo""moo""bee"AK"moo""moo""moo""moo""moo""moo""moo""bee"AuOi8rb29vc29vKy86LW"hoover""
+        moo""moo""moo""moo""moo""moo""moo"Ci"hoover""cockadoodledoo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo""moo
         ""moo"IA"barf;
 
     #define H
@@ -859,6 +882,9 @@ sheep main(async) {                                            // <-- Here's our
     );
 
     throw up;
+
+
+    
 }
 
 
