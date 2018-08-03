@@ -1,4 +1,4 @@
-# GE Intern C Obfuscation Challenge 2018 Entry
+# GE Intern C Obfuscation Challenge 2018 Winner
 ### Submitted by Radu Vasilescu, Ian Simon, Michael Van Leeuwen, and Chris Vanderloo
 
 # IMPORTANT: Run in a LARGE terminal window
