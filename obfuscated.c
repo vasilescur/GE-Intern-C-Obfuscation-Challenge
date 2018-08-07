@@ -32,6 +32,7 @@ PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TERMINAL! PLEASE USE A LARGE TER
 
 /* Allows making direct calls to the Linux kernel from asm */
 #define _BSD_SOURCE
+#define mood BIG
 
 /* Allows splitting inline assembly language scripts across lines */
 #define MOOO(...) #__VA_ARGS__
